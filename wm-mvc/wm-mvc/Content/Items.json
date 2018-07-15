@@ -1,0 +1,29 @@
+﻿[
+	{
+		"Id": 1,
+		"Name": "Item1 Name",
+		"Description": "Item1 Description",
+		"Category": "Item1 Category",
+		"Manufacturer": "Item1 Manufacturer",
+		"Supplier": "Item1 Supplier",
+		"Price": 1.1
+	},
+	{
+		"Id": 2,
+		"Name": "Item2 Name",
+		"Description": "Item2 Description",
+		"Category": "Item2 Category",
+		"Manufacturer": "Item2 Manufacturer",
+		"Supplier": "Item2 Supplier",
+		"Price": 2.2
+	},
+	{
+		"Id": 3,
+		"Name": "Item3 Name",
+		"Description": "Item3 Description",
+		"Category": "Item3 Category",
+		"Manufacturer": "Item3 Manufacturer",
+		"Supplier": "Item3 Supplier",
+		"Price": 3.3
+	}
+]

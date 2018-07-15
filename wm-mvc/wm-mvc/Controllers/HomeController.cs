@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using wm_mvc.Models;
 
 namespace wm_mvc.Controllers
@@ -16,7 +17,10 @@ namespace wm_mvc.Controllers
         }
         public IActionResult Json()
         {
-            return View();
+            string text = System.IO.File.ReadAllText("Content/Items.json");
+            List<Item> items = JsonConvert.DeserializeObject<List<Item>>(text);
+
+            return View(items);
         }
         public IActionResult Database()
         {
